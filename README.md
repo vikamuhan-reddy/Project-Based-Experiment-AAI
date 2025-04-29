@@ -4,6 +4,8 @@
 <H1 Align="center">Project Based Experiment<H1>
 <H3>Objective:<H3>
 Perform sentiment analysis using your Facebook data and count the number of Occurrences of 'Your Name' in the extracted text 
+
+
 <H3>Program:</H3>
 ```py
   import pandas as pd
@@ -37,8 +39,11 @@ for sentiment, count in sentiment_counts.items():
 print(f"Occurrences of '{given_name}': {name_occurrences}")
 
 ```
+
+
 <H3>Output:</H3>
 <img width="876" alt="Screen Shot 1947-02-09 at 08 53 47" src="https://github.com/user-attachments/assets/70f5ba52-e598-4d8b-8a8d-815f2df8e827" />
+
 
 <H3>Inference:</H3>
 I learned how to read data from a file and check the mood of each post using TextBlob. I also learned how to count how many times a name appears in the posts. This helped me understand how to work with text and do simple analysis in Python.
